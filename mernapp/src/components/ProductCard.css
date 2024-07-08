@@ -1,0 +1,31 @@
+.shimmer-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shimmer-img {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  background: linear-gradient(to right, rgba(92, 128, 101, 0.87) 8%, rgba(92, 128, 101, 0.87) 18%, rgba(92, 128, 101, 0.87) 33%);
+  background-size: 800px 104px; /* Adjust according to the width of your card */
+  animation: shimmer 1.5s infinite linear;
+}
+
+.shimmer-text {
+  margin: 10px;
+  height: 20px; /* Adjust height as needed */
+  background: linear-gradient(to right, rgba(92, 128, 101, 0.87) 8%, rgba(92, 128, 101, 0.87) 18%, rgba(92, 128, 101, 0.87) 33%);
+  background-size: 800px 104px; /* Adjust according to the width of your card */
+  animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+      background-position: -600px 0;
+  }
+  100% {
+      background-position: 600px 0;
+  }
+}

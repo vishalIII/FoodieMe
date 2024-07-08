@@ -1,0 +1,24 @@
+/* Navbar.css */
+
+/* Hide side button by default */
+.side-button {
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Show side button on small screens */
+  @media (max-width: 992px) {
+    .side-button {
+      display: block;
+    }
+  }
+  

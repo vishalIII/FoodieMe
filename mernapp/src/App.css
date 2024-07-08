@@ -1,0 +1,29 @@
+.search-bar-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 80%; /* Adjust the width as needed */
+}
+
+.transparent-input {
+  background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value for transparency */
+  border: 1px solid rgba(255, 255, 255, 0.5);  /* Border with transparency */
+  color: #fff; /* Text color */
+}
+
+.transparent-input::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Placeholder text color */
+}
+
+.form-control:focus {
+  box-shadow: none; /* Remove the default Bootstrap focus shadow */
+  border-color: rgba(255, 255, 255, 0.8); /* Border color on focus */
+}
+
+.carousel-img {
+  height: 500px; /* Adjust the height as per your requirement */
+  object-fit: cover; /* Maintain aspect ratio */
+  opacity: 0.8; /* Reduce opacity to 80% */
+}

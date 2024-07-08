@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: rgba(46, 86, 55, 0.87);
+  /* background-color: rgb(63, 63, 63); */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+body{
+   
+   margin-top: 1%;
+   margin-bottom: 1%;
+   margin-left: 3%;
+   margin-right: 3%;
+   background-color: rgba(77, 104, 83, 0.87);
+   border-radius: 15px; /* Adjust the value as needed */
+    overflow-x: hidden; /* This ensures that the content doesn't overflow the rounded corners */
+    margin: 0; /* Ensure there's no default margin */
+    padding: 0; /* Ensure there's no default padding */
+   
+}
+.mycard{
+  background-color: rgba(92, 128, 101, 0.87);
+  padding-left: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.custom-list-item {
+  background-color: rgba(92, 128, 101, 0.87);
+  color: white;
+  border: none;
+}
+
+/*  */
+/* App.css */
+.slider img{
+    height: 100vh;
+}
+
